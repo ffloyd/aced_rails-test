@@ -1,12 +1,8 @@
-PATH
-  remote: ~/Code/aced_rails
-  specs:
-    aced_rails (0.2.0)
-      rails (~> 3.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    aced_rails (0.2.0)
+      rails (~> 3.2)
     actionmailer (3.2.12)
       actionpack (= 3.2.12)
       mail (~> 2.4.4)
@@ -124,7 +120,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aced_rails!
+  aced_rails
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.12)
